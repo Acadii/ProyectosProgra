@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 1119586012}
   - component: {fileID: 1119586011}
   - component: {fileID: 1119586014}
+  - component: {fileID: 1119586015}
   m_Layer: 0
   m_Name: pelota
   m_TagString: Untagged
@@ -1098,7 +1099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119586010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.4253, y: 5.3585, z: 0}
+  m_LocalPosition: {x: -9.16, y: 7.95, z: 0}
   m_LocalScale: {x: 0.02938146, y: 0.029103054, z: 0.08194875}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1121,6 +1122,18 @@ CircleCollider2D:
   m_Offset: {x: -0.025366217, y: -0.20563564}
   serializedVersion: 2
   m_Radius: 8.363593
+--- !u!114 &1119586015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119586010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a78b7483eb056b4495e31c9d7ca532c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1211579820
 GameObject:
   m_ObjectHideFlags: 0
