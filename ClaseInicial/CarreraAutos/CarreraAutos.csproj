@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3E0926D4-4A21-40B4-9211-5C5EC7349281}</ProjectGuid>
+    <ProjectGuid>{B0593563-1907-4F5F-B148-1C18F226644D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Clasess</RootNamespace>
-    <AssemblyName>Clasess</AssemblyName>
+    <RootNamespace>CarreraAutos</RootNamespace>
+    <AssemblyName>CarreraAutos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoCarrera.cs" />
+    <Compile Include="PistaCarreras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

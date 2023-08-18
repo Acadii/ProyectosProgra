@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clasess
+namespace ClaseInicial
 {
-    class Color
+    public class Color
     {
+        public int Rojo;
+        public int Verde;
+        public int Azul;
     }
 }
