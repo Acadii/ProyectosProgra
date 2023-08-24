@@ -14,7 +14,7 @@ namespace CarreraAutos
         public void Competir(AutoCarrera auto1, AutoCarrera auto2)
         {
             Console.WriteLine(
-                "Iniciando carrera entre " + auto1.Modelo + " y " + auto2.Modelo);
+                "Iniciando carrera entre " + auto1.Modelo + " y " + auto2.Modelo + "\n");
 
             if(auto1.Velocidad > auto2.Velocidad)
             {
