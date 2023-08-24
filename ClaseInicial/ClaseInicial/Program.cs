@@ -78,12 +78,23 @@ namespace ClaseInicial
             OppoA12.Loudspeacker = true;
             OppoA12.Jack35mm = true;
             OppoA12.WLAN = "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct";
-
-
-
-
-
-
+            OppoA12.Bluetooth = "5.0, A2DP, LE";
+            OppoA12.Positioning = "GPS, GLONASS, BDS";
+            OppoA12.NFC = false;
+            OppoA12.Radio = "FM radio";
+            OppoA12.USB = "microUSB 2.0, OTG";
+            OppoA12.Sensors = "Fingerprint (rear-mounted),accelerometer, gyro, proximity, compass";
+            OppoA12.BatteryType = "Li-Po 4230 mAh, non-removable";
+            OppoA12.color = new Color();
+            OppoA12.color.Rojo = 22;
+            OppoA12.color.Verde = 138;
+            OppoA12.color.Azul = 189;
+            OppoA12.color = new Color();
+            OppoA12.color.Rojo = 0;
+            OppoA12.color.Verde = 0;
+            OppoA12.color.Azul = 0;
+            OppoA12.Models = "CPH2083, CPH2077";
+            OppoA12.Price = 539.00f;
 
         }
     }

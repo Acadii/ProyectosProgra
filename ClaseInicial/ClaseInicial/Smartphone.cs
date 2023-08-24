@@ -58,7 +58,7 @@ namespace ClaseInicial
         public string WLAN;
         public string Bluetooth;
         public string Positioning;
-        public string NFC;
+        public bool NFC;
         public string Radio;
         public string USB;
 
