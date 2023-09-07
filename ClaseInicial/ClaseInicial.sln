@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaseInicial", "ClaseInicia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraAutos", "CarreraAutos\CarreraAutos.csproj", "{B0593563-1907-4F5F-B148-1C18F226644D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArregloSemana", "ArregloSemana\ArregloSemana.csproj", "{517F6B91-5A56-428A-ACB7-11C7A7B70D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneradorDeNombres", "GeneradorDeNombres\GeneradorDeNombres.csproj", "{BBE1094E-A3D3-471C-8FF9-E0FC90DA01DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B0593563-1907-4F5F-B148-1C18F226644D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0593563-1907-4F5F-B148-1C18F226644D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0593563-1907-4F5F-B148-1C18F226644D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517F6B91-5A56-428A-ACB7-11C7A7B70D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517F6B91-5A56-428A-ACB7-11C7A7B70D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517F6B91-5A56-428A-ACB7-11C7A7B70D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517F6B91-5A56-428A-ACB7-11C7A7B70D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE1094E-A3D3-471C-8FF9-E0FC90DA01DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE1094E-A3D3-471C-8FF9-E0FC90DA01DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE1094E-A3D3-471C-8FF9-E0FC90DA01DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE1094E-A3D3-471C-8FF9-E0FC90DA01DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
