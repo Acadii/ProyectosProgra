@@ -66,7 +66,7 @@ namespace Ejemplos//Declaración de espacio de nombre Ejemplos
             int precio = 50;//Declaracion de variable local precio dentro del metodo RepararZapatos
             if (tipo == "tenis")//Declaracion de bloque condicional if dentro de metodo RepararZapatos
             {
-                precio = 100;//Declaracion de variable local precio dentro del bloque condicional if
+                precio = 100;//Uso de variable local precio dentro del bloque condicional if
             }
             Console.WriteLine($"{Nombre} está reparando {cantidad} zapatos de tipo {tipo} a precio {precio}");
         }
