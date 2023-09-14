@@ -9,6 +9,7 @@ public class ControladorJugador : MonoBehaviour
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     public float velocidadCaminar = 3;
+    public float fuerzaSalto = 3;
    
 
 
@@ -45,6 +46,12 @@ public class ControladorJugador : MonoBehaviour
             miAnimador.SetBool("Caminando", false);
         }
 
+        if (Input.GetButtonDown("Jump"))
+        {
+            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+        }
+
+        miAnimador.SetFloat("Vel_Vert", velActualVert);
         
     }
 }
