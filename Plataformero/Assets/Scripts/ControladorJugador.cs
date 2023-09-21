@@ -10,6 +10,8 @@ public class ControladorJugador : MonoBehaviour
     private Animator miAnimador;
     public float velocidadCaminar = 3;
     public float fuerzaSalto = 3;
+    public bool enPiso;
+    public int dobleSalto = 2;
    
 
 
@@ -22,6 +24,14 @@ public class ControladorJugador : MonoBehaviour
 
     void Update()
     {
+        if (enPiso == true)
+        {
+            dobleSalto = 2;
+        }
+
+
+        comprobarPiso();
+ 
         float velActualVert = miCuerpo.velocity.y;
 
         //Leo si el jugador esta presionando un eje en horizontal
@@ -47,11 +57,29 @@ public class ControladorJugador : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Jump"))
+
         {
-            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+            if (enPiso == true)
+            {
+                miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+                dobleSalto = dobleSalto - 1;
+            }
+
+            else if (enPiso == false && dobleSalto > 0 )
+            {
+                miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+                dobleSalto = dobleSalto - 1;
+            }
+
+
         }
 
         miAnimador.SetFloat("Vel_Vert", velActualVert);
         
     }
+    void comprobarPiso()
+    {
+        enPiso = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
+    }
+
 }
