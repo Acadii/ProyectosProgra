@@ -34,6 +34,9 @@ public class ControladorJugador : MonoBehaviour
  
         float velActualVert = miCuerpo.velocity.y;
 
+
+        miAnimador.SetBool("EnPiso", enPiso);
+
         //Leo si el jugador esta presionando un eje en horizontal
         float movHoriz = Input.GetAxis("Horizontal");
         if(movHoriz > 0)
@@ -70,6 +73,11 @@ public class ControladorJugador : MonoBehaviour
                 miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
                 dobleSalto = dobleSalto - 1;
             }
+
+ 
+                
+
+
 
 
         }

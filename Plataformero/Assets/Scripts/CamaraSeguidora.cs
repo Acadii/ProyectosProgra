@@ -6,7 +6,6 @@ public class CamaraSeguidora : MonoBehaviour
 {
     //Este es un atributo de la clase que funciona como referencia a la pelota de la escena
     public Transform Cavernicola;
-
     void Start()
     {
 
@@ -17,7 +16,7 @@ public class CamaraSeguidora : MonoBehaviour
     //Le coloco la posicion de la pelota a la camara, excepto en Z
     {
         transform.position =
-            new Vector3(Cavernicola.position.x, Cavernicola.position.y, -1);
+            new Vector3(Cavernicola.position.x, Cavernicola.position.y + 3, -1);
     }
 }
 
