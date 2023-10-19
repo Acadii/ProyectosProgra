@@ -7,8 +7,9 @@ public class ControladorUI : MonoBehaviour
 {
     public Personaje heroe;
     public Text etiquetaHPHeroe;
-    public Text etiquetaScore;
     public Image barraHPHeroe;
+    public Text etiquetaScore;
+
 
     void Update()
     {
@@ -19,5 +20,7 @@ public class ControladorUI : MonoBehaviour
             heroe.hp / (float)heroe.hpMax;
         barraHPHeroe.fillAmount = porcentajeHP;
 
+        etiquetaScore.text = heroe.score.ToString();
+ 
     }
 }
