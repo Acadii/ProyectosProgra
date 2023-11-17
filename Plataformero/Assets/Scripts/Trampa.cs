@@ -15,7 +15,7 @@ public class Trampa : MonoBehaviour
         {
             //Accedo al componente de tipo Personaje del objeto con el que choqué
             Personaje elPerso = otro.GetComponent<Personaje>();
-            elPerso.hacerDanio(puntosDanio, this.gameObject);
+            elPerso.recibirDanio(puntosDanio, this.gameObject);
         }
     }
 

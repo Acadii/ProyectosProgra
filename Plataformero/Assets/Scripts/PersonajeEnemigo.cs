@@ -2,32 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Personaje : MonoBehaviour
+public class PersonajeEnemigo : MonoBehaviour
 {
-    public int hp = 100;
-    public int hpMax = 100;
-    public int score = 100;
-    public int vidas = 3;
+    public int hp = 10;
+    public int hpMax = 10;
+    public int score = 0;
+    public int vidas = 1;
     public bool aturdido = false;
     public bool morido = false;
-    public GameObject efectoSangrePrefab;
-    private ReproductorSonido misSonidos;
+    public GameObject efectoGolpePrefab;
     private Animator miAnimador;
 
- 
+
 
     void Start()
     {
         miAnimador = GetComponent<Animator>();
-        misSonidos = GetComponent<ReproductorSonido>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
 
     public void recibirDanio(int puntos, GameObject atacante)
     {
@@ -45,8 +36,7 @@ public class Personaje : MonoBehaviour
         miAnimador.SetTrigger("Dañar");
 
         //Creo una instancia de la parte de sangre
-        GameObject sangre = Instantiate(efectoSangrePrefab, transform);
-        misSonidos.reproducir("Dañar");
+        GameObject sangre = Instantiate(efectoGolpePrefab, transform);
 
         aturdido = true;
 
@@ -61,8 +51,8 @@ public class Personaje : MonoBehaviour
     public void matar()
     {
         hp = 0;
-        misSonidos.reproducir("Morir");
     }
 
 
 }
+

@@ -10,14 +10,14 @@ public class EnemigoPequenio : MonoBehaviour
     public int puntosDanio = 10;
     private Animator miAnimador;
     private Rigidbody2D Cuerphongo;
-    private Personaje miPersonaje;
+    private PersonajeEnemigo miEnemigo;
 
     void Start()
     {
         heroe = GameObject.FindWithTag("Player");
         miAnimador = GetComponent<Animator>();
         Cuerphongo = GetComponent<Rigidbody2D>();
-        miPersonaje = GetComponent<Personaje>();
+        miEnemigo = GetComponent<PersonajeEnemigo>();
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class EnemigoPequenio : MonoBehaviour
         float distancia = (posYo - posHeroe).magnitude;
         float velActualVert = Cuerphongo.velocity.y;
 
-        if (distancia < distanciaAgro && !miPersonaje.aturdido && !miPersonaje.morido)
+        if (distancia < distanciaAgro && !miEnemigo.aturdido && !miEnemigo.morido)
         {//El heroe esta dentro de la distancia de agro
             if (posHeroe.x > posYo.x)
             {
@@ -59,11 +59,11 @@ public class EnemigoPequenio : MonoBehaviour
         print(name + " hizo colisión con " + collision.gameObject.name);
 
         GameObject otro = collision.gameObject;
-        if (otro.tag == "Player")
+        if (otro.tag == "Player" && !miEnemigo.aturdido && !miEnemigo.morido)
         {
             //Accedo al componente de tipo Personaje del objeto con el que choque
             Personaje elPerso = otro.GetComponent<Personaje>();
-            elPerso.hacerDanio(puntosDanio, this.gameObject);
+            elPerso.recibirDanio(puntosDanio, this.gameObject);
         }
     }
 
