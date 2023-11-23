@@ -97,4 +97,5 @@ public class ControladorJugador : MonoBehaviour
         enPiso = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
     }
 
+
 }

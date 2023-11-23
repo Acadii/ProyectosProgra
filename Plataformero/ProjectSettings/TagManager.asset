@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemie
   - Coin
+  - FxTemporaire
+  - Cofre
   layers:
   - Default
   - TransparentFX

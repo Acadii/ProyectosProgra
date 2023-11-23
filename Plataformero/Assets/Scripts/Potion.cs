@@ -35,6 +35,8 @@ public class Potion : MonoBehaviour
             Cavernicola.recibirDanio(puntosDanio, this.gameObject);
             yield return new WaitForSeconds(1f);
             tiempoPasado += 1f;
+
+
         }
 
         Destroy(gameObject, 1f);
@@ -48,10 +50,7 @@ public class Potion : MonoBehaviour
         {
 
             Personaje elPerso = otro.GetComponent<Personaje>();
-
-            efectoDanio.transform.position = transform.position;
-
-            StartCoroutine(DanoVeneno(elPerso));
+            StartCoroutine(DanioVeneno(elPerso));
         }
     }
 
