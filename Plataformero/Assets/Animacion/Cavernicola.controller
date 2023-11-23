@@ -525,7 +525,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cavernicola_Attack
-  m_Speed: 2.7
+  m_Speed: 2.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 825794190611578688}

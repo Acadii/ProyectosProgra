@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class Personaje : MonoBehaviour
 {
     public int hp = 100;
@@ -39,7 +41,14 @@ public class Personaje : MonoBehaviour
         {
             morido = true;
             miAnimador.SetTrigger("Morido");
+
+            Destroy(this.gameObject, 3f);
+            Invoke("Respawn", 2f);
+
+
+
         }
+        
 
         miAnimador.SetTrigger("Dañar");
 
@@ -50,6 +59,12 @@ public class Personaje : MonoBehaviour
         aturdido = true;
 
         Invoke("desaturdir", 1);
+    }
+
+    public void Respawn()
+
+    {
+        SceneManager.LoadScene("Nivel1");
     }
 
     private void desaturdir()
@@ -74,6 +89,9 @@ public class Personaje : MonoBehaviour
             etiquetaScore.text = "" + score;
 
         }
+
+
+
     }
 
 }

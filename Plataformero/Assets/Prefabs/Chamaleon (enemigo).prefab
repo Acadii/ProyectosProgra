@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4250142074486111893}
   - component: {fileID: 4250142074486111890}
-  - component: {fileID: 4250142074486111891}
   - component: {fileID: 4250142074486111895}
   - component: {fileID: 4250142074486111897}
   - component: {fileID: 4250142074486111894}
   - component: {fileID: 7754993935467261562}
+  - component: {fileID: 6387547817442294211}
   m_Layer: 0
   m_Name: Chamaleon (enemigo)
   m_TagString: Enemie
@@ -89,27 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4250142074486111891
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250142074486111888}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2da856d0ecd57e04995b76815beb7a5d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &4250142074486111895
 Rigidbody2D:
   serializedVersion: 4
@@ -185,8 +164,8 @@ EdgeCollider2D:
   - {x: 0.5764489, y: 0.940238}
   - {x: 0.19835901, y: 1.0917368}
   - {x: -0.3131771, y: 0.9958502}
-  - {x: -0.3147068, y: 0.0075894594}
-  - {x: 0.49417686, y: 0.0017179847}
+  - {x: -0.3147068, y: -0.00066685677}
+  - {x: 0.20245457, y: 0.0044700503}
   - {x: 0.5649605, y: 0.48757654}
   - {x: 0.5783191, y: 0.6730612}
   - {x: 0.57441664, y: 0.9192911}
@@ -194,3 +173,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!95 &6387547817442294211
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250142074486111888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1abcfe7e7b6dbda4cbcda9d12bfea4d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

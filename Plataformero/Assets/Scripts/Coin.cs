@@ -25,9 +25,9 @@ public class Coin : MonoBehaviour
         if (collision.gameObject.tag =="Player")
 
         {
+            misSonidos.reproducir("Moneda");
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            misSonidos.reproducir("Moneda");
             Destroy(this.gameObject,1f);
         }
 
