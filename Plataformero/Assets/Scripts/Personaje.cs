@@ -73,9 +73,6 @@ public class Personaje : MonoBehaviour
             score += 100;
             etiquetaScore.text = "" + score;
 
-            vanishCoin.enabled = false;
-
-
         }
     }
 
