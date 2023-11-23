@@ -26,6 +26,5 @@ public class ControladorUI : MonoBehaviour
 
         etiquetaVidas.text =
             heroe.vidas.ToString();
- 
     }
 }
