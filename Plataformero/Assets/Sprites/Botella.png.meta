@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b2f155bdc4111349a73606f9352c0e6
+guid: 7bc8f799081f53142a61c1577eb21677
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,127 +105,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cofre tesoro_0
+      name: Botella_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 2356
-        width: 1163
-        height: 1067
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 39
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e578666fd4d0284c837abd25ed96a94
-      internalID: 739247518
+      spriteID: a8cba5d8c74ccc046b67c88e125513d3
+      internalID: -2047473487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre tesoro_1
+      name: Botella_1
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 2353
-        width: 1166
-        height: 1128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 152
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a543d1a8792fb6f47ab9ebc4f20cf103
-      internalID: -415662847
+      spriteID: 2437afb9fb002a648878be886cc9a256
+      internalID: -1317807661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre tesoro_2
+      name: Botella_2
       rect:
         serializedVersion: 2
-        x: 2876
-        y: 2353
-        width: 1167
-        height: 1206
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 275
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a730b74ab0db87d47b67920f4311ddc1
-      internalID: -886676066
+      spriteID: 29c82f51a6e68fb488b2de364ec73e3b
+      internalID: 2119560460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre tesoro_3
+      name: Botella_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 537
-        width: 1167
-        height: 1273
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 392
+        y: 50
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 469389912270d444fbfc6c3619160f23
-      internalID: 778669852
+      spriteID: 1acb159dd50da5a4bbc9fddd0305ed75
+      internalID: -1559360321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre tesoro_4
+      name: Botella_4
       rect:
         serializedVersion: 2
-        x: 1486
-        y: 536
-        width: 1167
-        height: 1311
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 500
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a9adee16f16e354c947ae66cb4124a2
-      internalID: 251720206
+      spriteID: 44a3772cd6ac6014b91dc738e72e3bf1
+      internalID: -176563784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre tesoro_5
+      name: Botella_5
       rect:
         serializedVersion: 2
-        x: 2877
-        y: 532
-        width: 1167
-        height: 1350
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 603
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 546f7204abccf744a835bb731b213498
-      internalID: 1557774528
+      spriteID: 7e0c799bc8b87fc44881e0ee72b8d063
+      internalID: 1240026532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botella_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 50
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717fba2fe75fbd7468045ac246f32939
+      internalID: -1317708529
       vertices: []
       indices: 
       edges: []
@@ -241,12 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cofre tesoro_0: 739247518
-      cofre tesoro_1: -415662847
-      cofre tesoro_2: -886676066
-      cofre tesoro_3: 778669852
-      cofre tesoro_4: 251720206
-      cofre tesoro_5: 1557774528
+      Botella_0: -2047473487
+      Botella_1: -1317807661
+      Botella_2: 2119560460
+      Botella_3: -1559360321
+      Botella_4: -176563784
+      Botella_5: 1240026532
+      Botella_6: -1317708529
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

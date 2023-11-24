@@ -5,26 +5,30 @@ using UnityEngine;
 public class Cofre : MonoBehaviour
 {
     private Animator miAnimador;
-
+    public GameObject chestItem;
     void Start()
     {
         miAnimador = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-
-            miAnimador.SetTrigger("Abriendo");
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                print("Si colisiona");
+                miAnimador.Play("Cofre_Open");
+                StartCoroutine(getChestItem());
+            }
         }
 
+    }
+
+    IEnumerator getChestItem()
+    {
+        yield return new WaitForSeconds(1f);
+        Instantiate(chestItem, transform.position, Quaternion.identity);
     }
 }

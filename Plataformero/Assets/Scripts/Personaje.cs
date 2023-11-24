@@ -16,11 +16,10 @@ public class Personaje : MonoBehaviour
     public bool aturdido = false;
     public bool morido = false;
     public GameObject efectoSangrePrefab;
+    public GameObject venenoPrefab;
     private ReproductorSonido misSonidos;
     private Animator miAnimador;
-    public CapsuleCollider2D vanishCoin;
 
- 
 
     void Start()
     {
@@ -48,7 +47,7 @@ public class Personaje : MonoBehaviour
 
 
         }
-        
+
 
         miAnimador.SetTrigger("Dañar");
 
@@ -61,6 +60,36 @@ public class Personaje : MonoBehaviour
         Invoke("desaturdir", 1);
     }
 
+    public void danioPorVeneno(int puntos, GameObject atacante)
+    {
+        print(name + " recibe daño de " + puntos + " por " + atacante.name);
+
+        //Resto los puntos al HP actual
+        hp = hp - puntos;
+
+        if (hp <= 0)
+        {
+            morido = true;
+            miAnimador.SetTrigger("Morido");
+
+            Destroy(this.gameObject, 3f);
+            Invoke("Respawn", 2f);
+
+
+
+        }
+
+
+        miAnimador.SetTrigger("Dañar");
+
+        //Creo una instancia de la parte de sangre
+        GameObject sangre = Instantiate(venenoPrefab, transform);
+        misSonidos.reproducir("Dañar");
+
+        aturdido = true;
+
+        Invoke("desaturdir", 1);
+    }
     public void Respawn()
 
     {
@@ -87,11 +116,17 @@ public class Personaje : MonoBehaviour
 
             score += 100;
             etiquetaScore.text = "" + score;
-
         }
+    }
 
+    public void recibirVida(int puntos, GameObject posion)
+    {
 
+        if (hp < 100)
+        {
 
+            hp = hp + puntos;
+        }
     }
 
 }

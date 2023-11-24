@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Potion : MonoBehaviour
+public class PosionVidas : MonoBehaviour
 {
 
     private ReproductorSonido misSonidos;
     private Animator miAnimador;
-    public int puntosDanio = 1;
-    public float duracionVeneno = 5f;
-
-
-
+    public int puntosVida = 1;
+    public float duracionVidas = 1f;
     void Start()
     {
         misSonidos = GetComponent<ReproductorSonido>();
@@ -24,15 +21,15 @@ public class Potion : MonoBehaviour
 
     }
 
-    IEnumerator DanioVeneno(Personaje Cavernicola)
+    IEnumerator recibirVida(Personaje Cavernicola)
 
     {
         float tiempoPasado = 0f;
 
-        while (tiempoPasado < duracionVeneno)
+        while (tiempoPasado < duracionVidas)
 
         {
-            Cavernicola.danioPorVeneno(puntosDanio, this.gameObject);
+            Cavernicola.recibirVida(puntosVida, this.gameObject);
             yield return new WaitForSeconds(1f);
             tiempoPasado += 1f;
 
@@ -52,10 +49,8 @@ public class Potion : MonoBehaviour
             Personaje elPerso = otro.GetComponent<Personaje>();
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            StartCoroutine(DanioVeneno(elPerso));
+            StartCoroutine(recibirVida(elPerso));
         }
     }
-
-
 
 }
