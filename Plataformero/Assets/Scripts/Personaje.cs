@@ -74,9 +74,6 @@ public class Personaje : MonoBehaviour
 
             Destroy(this.gameObject, 3f);
             Invoke("Respawn", 2f);
-
-
-
         }
 
 
@@ -85,8 +82,6 @@ public class Personaje : MonoBehaviour
         //Creo una instancia de la parte de sangre
         GameObject sangre = Instantiate(venenoPrefab, transform);
         misSonidos.reproducir("Dañar");
-
-        aturdido = true;
 
         Invoke("desaturdir", 1);
     }

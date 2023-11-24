@@ -10,6 +10,7 @@ public class ControladorJugador : MonoBehaviour
     private Animator miAnimador;
     private ReproductorSonido misSonidos;
     public float velocidadCaminar = 3;
+    public float BoostVel = 3 * 3;
     public float fuerzaSalto = 3;
     public bool enPiso;
     public int dobleSalto = 1;
@@ -98,4 +99,16 @@ public class ControladorJugador : MonoBehaviour
     }
 
 
+    public void aumentoVelocidad()
+    {
+        float velActualVert = miCuerpo.velocity.y;
+
+        float movHoriz = Input.GetAxis("Horizontal");
+        if (movHoriz > 0 && !miPersonaje.aturdido && !miPersonaje.morido)
+        {              
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+            miCuerpo.velocity = new Vector3(BoostVel, 8, 0);
+            miAnimador.SetBool("Caminando", true);
+        }
+    }
 }
