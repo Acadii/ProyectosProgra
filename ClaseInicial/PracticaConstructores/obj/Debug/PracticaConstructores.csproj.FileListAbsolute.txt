@@ -1,7 +1,0 @@
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\bin\Debug\PracticaConstructores.exe.config
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\bin\Debug\PracticaConstructores.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\bin\Debug\PracticaConstructores.pdb
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\obj\Debug\PracticaConstructores.csproj.AssemblyReference.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\obj\Debug\PracticaConstructores.csproj.CoreCompileInputs.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\obj\Debug\PracticaConstructores.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\PracticaConstructores\obj\Debug\PracticaConstructores.pdb

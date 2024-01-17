@@ -1,7 +1,0 @@
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\bin\Debug\CarreraAutos.exe.config
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\bin\Debug\CarreraAutos.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\bin\Debug\CarreraAutos.pdb
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\obj\Debug\CarreraAutos.csproj.AssemblyReference.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\obj\Debug\CarreraAutos.csproj.CoreCompileInputs.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\obj\Debug\CarreraAutos.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\CarreraAutos\obj\Debug\CarreraAutos.pdb

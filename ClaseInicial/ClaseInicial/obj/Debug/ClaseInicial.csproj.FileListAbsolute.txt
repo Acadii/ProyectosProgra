@@ -1,7 +1,0 @@
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\bin\Debug\ClaseInicial.exe.config
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\bin\Debug\ClaseInicial.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\bin\Debug\ClaseInicial.pdb
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\obj\Debug\ClaseInicial.csproj.AssemblyReference.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\obj\Debug\ClaseInicial.csproj.CoreCompileInputs.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\obj\Debug\ClaseInicial.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ClaseInicial\obj\Debug\ClaseInicial.pdb

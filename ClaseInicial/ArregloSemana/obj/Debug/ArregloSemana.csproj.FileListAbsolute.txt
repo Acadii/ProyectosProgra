@@ -1,7 +1,0 @@
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\bin\Debug\ArregloSemana.exe.config
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\bin\Debug\ArregloSemana.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\bin\Debug\ArregloSemana.pdb
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\obj\Debug\ArregloSemana.csproj.AssemblyReference.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\obj\Debug\ArregloSemana.csproj.CoreCompileInputs.cache
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\obj\Debug\ArregloSemana.exe
-C:\Users\jesus.guevaradeita\Documents\GitHub\ProyectosProgra\ClaseInicial\ArregloSemana\obj\Debug\ArregloSemana.pdb
