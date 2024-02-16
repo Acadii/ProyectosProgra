@@ -31,5 +31,15 @@ public class CaminadoCruz : MonoBehaviour
 
         miAnim.SetFloat("Mov_Front", movVert);
         miAnim.SetFloat("Mov_Lateral", movHoriz);
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            miAnim.SetBool("Interactuando", true);
+        }
+
+        else
+        {
+            miAnim.SetBool("Interactuando", false);
+        }
     }
 }
