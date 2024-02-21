@@ -217,6 +217,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7437160347430417559, guid: db1c379775ea3d841875649073008917, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e154a0235bd4a7446bc9246ae024c45a, type: 2}
     - target: {fileID: 919132149155446097, guid: db1c379775ea3d841875649073008917, type: 3}
       propertyPath: m_Name
       value: Closet
