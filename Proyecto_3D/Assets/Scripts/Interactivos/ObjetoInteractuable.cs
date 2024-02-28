@@ -14,7 +14,7 @@ public abstract class ObjetoInteractuable : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && enContacto)
+        if (Input.GetButtonDown("Fire2") && enContacto)
         {
             Activar();
         }
@@ -27,8 +27,6 @@ public abstract class ObjetoInteractuable : MonoBehaviour
         { return; }
 
 
-        CoontroladorUI.Instancia.MostrarInteractuable(this);
-        enContacto = true;
     }
 
     private void OnTriggerExit(Collider other)
@@ -37,8 +35,7 @@ public abstract class ObjetoInteractuable : MonoBehaviour
 
         { return; }
 
-        CoontroladorUI.Instancia.MostrarInteractuable(null);
-        enContacto=false;
+     
     }
 
 }
