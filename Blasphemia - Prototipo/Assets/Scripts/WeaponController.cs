@@ -24,7 +24,7 @@ public class WeaponController : MonoBehaviour
         {
             Vector3 shootDirection = cameraHit.point - shootSpawn.position;
             shootSpawn.rotation = Quaternion.LookRotation(shootDirection);
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetButtonDown("Fire 1"))
             {
                 Shoot();
             }

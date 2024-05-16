@@ -14,9 +14,10 @@ public class BulletController : MonoBehaviour
     {
         bulletRb = GetComponent<Rigidbody>();
         bulletRb.velocity = this.transform.forward * bulletPower;
+        Destroy(this.gameObject, lifeTime);
     }
 
-    // Update is called once per frame
+    // Update is called once per frame+
     void FixedUpdate()
     {
         time += Time.deltaTime;
